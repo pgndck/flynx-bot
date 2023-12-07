@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "flynx-bot"
+version = "0.1.0"
+description = ""
+authors = ["pgndck <thepigeonduck@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+aiofiles = "^23.2.1"
+aiogram = "^3.2.0"
+python-dotenv = "^1.0.0"
+structlog = "^23.2.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
